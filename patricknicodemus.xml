@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>177</fr:anchor><fr:taxon>Person</fr:taxon><fr:addr>patricknicodemus</fr:addr><fr:route>patricknicodemus.xml</fr:route><fr:title>Patrick Nicodemus</fr:title><fr:meta
+name="institution">University of Pennsylvania</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a research mathematician interested in applied topology, categorical logic, type theory, and homological algebra.</fr:p><fr:p>Currently, I primarily work in applied topology, at the <fr:link
+href="https://camara-lab.org/"
+type="external">Camara Lab</fr:link>, applying the Gromov-Wasserstein distance to the study of cell morphology. I also develop and maintain <fr:link
+href="https://github.com/CamaraLab/CAJAL"
+type="external">CAJAL</fr:link>, a Python package for the analysis of cell morphology.</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
