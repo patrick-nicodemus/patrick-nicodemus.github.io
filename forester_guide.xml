@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>182</fr:anchor><fr:addr>forester_guide</fr:addr><fr:route>forester_guide.xml</fr:route><fr:title>Forester guide</fr:title></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Verbatim code</fr:strong> - just see the source code of this tree, as it's easier than trying to figure out how to verbatim-code the verbatim-code operations</fr:p><fr:p><fr:strong>Unordered lists</fr:strong> (bulleted lists, akin to "itemize" in LaTeX) can be made with <fr:pre><![CDATA[\ul{
+  \li{First item}
+  \li{Second item}
+  }]]></fr:pre></fr:p><fr:p><fr:strong>Ordered lists</fr:strong> (enumerated lists) can be made with:<fr:pre><![CDATA[\ol{
+  \li{First item}
+  \li{Second item}
+}]]></fr:pre></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>181</fr:anchor><fr:addr>hello</fr:addr><fr:route>hello.xml</fr:route><fr:title>Hello, World!</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+  Welcome to your first tree! This tree is the root of your forest. ABC
+  <fr:ul><fr:li><fr:link
+href="http://www.jonmsterling.com/jms-007D.xml"
+type="external">Build and view your forest for the first time</fr:link></fr:li>
+    <fr:li><fr:link
+href="http://www.jonmsterling.com/jms-007N.xml"
+type="external">Overview of the Forester markup language</fr:link></fr:li>
+    <fr:li><fr:link
+href="http://www.jonmsterling.com/jms-007H.xml"
+type="external">Creating new trees</fr:link></fr:li>
+    <fr:li><fr:link
+href="http://www.jonmsterling.com/jms-007K.xml"
+type="external">Creating your personal biographical tree</fr:link></fr:li>
+    <fr:li><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>177</fr:anchor><fr:addr>pbn-0001</fr:addr><fr:route>pbn-0001.xml</fr:route><fr:title>Category theory</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>28</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>I am a category theorist, so it will be nice to start with some discussion of category theory.</fr:p><fr:p>The first thing we will do is try to semi-organically weave some Coq code into all this using Alectryon.</fr:p></fr:mainmatter></fr:tree></fr:li>
+    <fr:li><fr:link
+href="forester_guide.xml"
+type="local"
+addr="forester_guide">Guide to forester</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
