@@ -20,11 +20,13 @@ href="https://github.com/CamaraLab/CAJAL">CAJAL</fr:link>, a Python package for 
 type="local"
 href="pbn-0001.xml"
 addr="pbn-0001"
-title="Category theory">Category theory</fr:link></fr:li> <fr:li>Some nice looking Rocq proofs: try <fr:link
+title="Category theory">Category theory</fr:link></fr:li> <fr:li>Some nice looking Rocq proofs: try
+     <fr:link
 type="external"
 href="./MyTheory.html/MyTheory.A.html">here</fr:link>,
      <fr:link
 type="external"
-href="./MyTheory.html/MyTheory.pretty.html">here</fr:link>, and <fr:link
+href="./MyTheory.html/MyTheory.nat_example.html">here</fr:link>, and
+     <fr:link
 type="external"
-href="./MyTheory.html/MyTheory.Strict.html">here</fr:link>.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+href="./MyTheory.html/MyTheory.eq_example.html">here</fr:link>.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
