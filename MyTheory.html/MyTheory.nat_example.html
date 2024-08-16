@@ -250,7 +250,7 @@ Remember, <span class="inlinecode"><span class="id" title="keyword">fix</span></
 The "Fixpoint" command is syntactic sugar for a recursive Definition.
     It's a bit more concise.
     The following illustrates this syntactic sugar.
-    It is exactly equivalent to owhat we did above. 
+    It is exactly equivalent to what we did above. 
 </div>
 <div class="code">
 <span class="id" title="keyword">Fixpoint</span> <a id="concat" class="idref" href="#concat"><span class="id" title="definition">concat</span></a> {<a id="A:29" class="idref" href="#A:29"><span class="id" title="binder">A</span></a> : <span class="id" title="keyword">Type</span>} (<a id="l1:30" class="idref" href="#l1:30"><span class="id" title="binder">l1</span></a> : <a class="idref" href="MyTheory.nat_example.html#list"><span class="id" title="inductive">list</span></a> <a class="idref" href="MyTheory.nat_example.html#A:29"><span class="id" title="variable">A</span></a>) (<a id="l2:31" class="idref" href="#l2:31"><span class="id" title="binder">l2</span></a> : <a class="idref" href="MyTheory.nat_example.html#list"><span class="id" title="inductive">list</span></a> <a class="idref" href="MyTheory.nat_example.html#A:29"><span class="id" title="variable">A</span></a>) :=<br/>
@@ -290,22 +290,22 @@ Because Coq is a dependently typed language, it's possible to use
 </div>
 
 <div class="doc">
-vector is both a polymorphic type (one can have a vector of A's
-    for all types A) and a dependent type, a family of types indexed by
+vector is both a polymorphic type (one can have a vector of <span class="inlinecode"><span class="id" title="var">A</span></span>'s
+    for all types <span class="inlinecode"><span class="id" title="var">A</span></span>) and a dependent type, a family of types indexed by
     the natural numbers.
 
 <div class="paragraph"> </div>
 
-    It has two constructors: vnil, which is an element of the type vector A 0;
-    and vcons. To define a function on the type of vectors,
+    It has two constructors: <span class="inlinecode"><span class="id" title="var">vnil</span></span>, which is an element of the type <span class="inlinecode"><span class="id" title="var">vector</span></span> <span class="inlinecode"><span class="id" title="var">A</span></span> <span class="inlinecode">0</span>;
+    and <span class="inlinecode"><span class="id" title="var">vcons</span></span>. To define a function on the type of vectors,
     it suffices to define it on the constructors. 
 <div class="paragraph"> </div>
 
  This function can be seen as a "verified" version of the concat
     function we defined earlier. The fact that this definition
     type-checks means that Coq has guaranteed that indeed the
-    concatenation of a list of length n with a list of length m is of
-    length n + m. 
+    concatenation of a list of length <span class="inlinecode"><span class="id" title="var">n</span></span> with a list of length <span class="inlinecode"><span class="id" title="var">m</span></span> is of
+    length <span class="inlinecode"><span class="id" title="var">n</span></span> <span class="inlinecode">+</span> <span class="inlinecode"><span class="id" title="var">m</span></span>. 
 </div>
 <div class="code">
 <span class="id" title="keyword">Definition</span> <a id="vconcat" class="idref" href="#vconcat"><span class="id" title="definition">vconcat</span></a> (<a id="A:38" class="idref" href="#A:38"><span class="id" title="binder">A</span></a> : <span class="id" title="keyword">Type</span>) {<a id="n:39" class="idref" href="#n:39"><span class="id" title="binder">n</span></a> : <a class="idref" href="MyTheory.nat_example.html#nat"><span class="id" title="inductive">nat</span></a>} (<a id="l1:40" class="idref" href="#l1:40"><span class="id" title="binder">l1</span></a> : <a class="idref" href="MyTheory.nat_example.html#vector"><span class="id" title="inductive">vector</span></a> <a class="idref" href="MyTheory.nat_example.html#A:38"><span class="id" title="variable">A</span></a> <a class="idref" href="MyTheory.nat_example.html#n:39"><span class="id" title="variable">n</span></a>) {<a id="m:41" class="idref" href="#m:41"><span class="id" title="binder">m</span></a> : <a class="idref" href="MyTheory.nat_example.html#nat"><span class="id" title="inductive">nat</span></a>} (<a id="l2:42" class="idref" href="#l2:42"><span class="id" title="binder">l2</span></a> : <a class="idref" href="MyTheory.nat_example.html#vector"><span class="id" title="inductive">vector</span></a> <a class="idref" href="MyTheory.nat_example.html#A:38"><span class="id" title="variable">A</span></a> <a class="idref" href="MyTheory.nat_example.html#m:41"><span class="id" title="variable">m</span></a>) : <a class="idref" href="MyTheory.nat_example.html#vector"><span class="id" title="inductive">vector</span></a> <a class="idref" href="MyTheory.nat_example.html#A:38"><span class="id" title="variable">A</span></a> (<a class="idref" href="MyTheory.nat_example.html#n:39"><span class="id" title="variable">n</span></a> <a class="idref" href="MyTheory.nat_example.html#00f623954fe4dd5f04bdc5ceb1846ff4"><span class="id" title="notation">+</span></a> <a class="idref" href="MyTheory.nat_example.html#m:41"><span class="id" title="variable">m</span></a>) :=<br/>
@@ -314,14 +314,15 @@ vector is both a polymorphic type (one can have a vector of A's
 <div class="doc">
 The type signature above is easy to read and reflects how we might
       want to use it, but giving every argument a name
-      (fixing some specific n and l1, as we did)
+      (fixing some specific <span class="inlinecode"><span class="id" title="var">n</span></span> and <span class="inlinecode"><span class="id" title="var">l1</span></span>, as we did)
       is not really a good fit for defining
       functions by recursion. The fixpoint operator <span class="inlinecode"><span class="id" title="keyword">fix</span></span> is used to define a
-      function quantified over *all* its inputs, not just the specific ones
+      function quantified over <i>all</i> its inputs, not just the specific ones
       given to us; 
-      so we're just going to define this function for *all*
+      so we're just going to define this function for <i>all</i>
       <span class="inlinecode"><span class="id" title="var">n'</span></span> and <span class="inlinecode"><span class="id" title="var">l1'</span></span>, and then apply it to the specific <span class="inlinecode"><span class="id" title="var">n</span></span> and <span class="inlinecode"><span class="id" title="var">l1</span></span> given to us.
-      I introduce new variable names in defining vconcat_rec to avoid confusion;
+      I introduce new variable names in defining <span class="inlinecode"><span class="id" title="var">vconcat_rec</span></span>
+      to avoid confusion;
       you could reuse the same names, but it would just shadow the outer names.
   
 </div>
@@ -341,7 +342,7 @@ In the example above, if you remove <span class="inlinecode">:</span> <span clas
     explicitly annotated. As a general rule, if your code doesn't
     compile, adding more type annotations and filling in implicit
     arguments may help you get better error messages, and make the
-    typechecker happy, *up to a point*.
+    typechecker happy, <i>up to a point</i>.
 
 <div class="paragraph"> </div>
 
