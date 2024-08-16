@@ -7,30 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:addr
-type="user">forester_guide</fr:addr><fr:route>forester_guide.xml</fr:route><fr:title
-text="Forester guide">Forester guide</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Verbatim code</fr:strong> - just see the source code of this tree, as it's easier than trying to figure out how to verbatim-code the verbatim-code operations</fr:p><fr:p><fr:strong>Unordered lists</fr:strong> (bulleted lists, akin to "itemize" in LaTeX) can be made with <fr:pre><![CDATA[\ul{
-  \li{First item}
-  \li{Second item}
-  }]]></fr:pre></fr:p><fr:p><fr:strong>Ordered lists</fr:strong> (enumerated lists) can be made with:<fr:pre><![CDATA[\ol{
-  \li{First item}
-  \li{Second item}
-}]]></fr:pre></fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>247</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>248</fr:anchor><fr:addr
 type="user">hello</fr:addr><fr:route>hello.xml</fr:route><fr:title
 text="Hello, World!">Hello, World!</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Welcome to your first tree! This tree is the root of your forest. ABC
   <fr:ul><fr:li><fr:link
@@ -59,4 +36,27 @@ text="Category theory">Category theory</fr:title><fr:date><fr:year>2024</fr:year
 type="local"
 href="forester_guide.xml"
 addr="forester_guide"
-title="Forester guide">Guide to forester</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+title="Forester guide">Guide to forester</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
+type="user">forester_guide</fr:addr><fr:route>forester_guide.xml</fr:route><fr:title
+text="Forester guide">Forester guide</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Verbatim code</fr:strong> - just see the source code of this tree, as it's easier than trying to figure out how to verbatim-code the verbatim-code operations</fr:p><fr:p><fr:strong>Unordered lists</fr:strong> (bulleted lists, akin to "itemize" in LaTeX) can be made with <fr:pre><![CDATA[\ul{
+  \li{First item}
+  \li{Second item}
+  }]]></fr:pre></fr:p><fr:p><fr:strong>Ordered lists</fr:strong> (enumerated lists) can be made with:<fr:pre><![CDATA[\ol{
+  \li{First item}
+  \li{Second item}
+}]]></fr:pre></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
