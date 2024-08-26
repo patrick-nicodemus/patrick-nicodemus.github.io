@@ -19,7 +19,7 @@ href="https://github.com/CamaraLab/CAJAL">CAJAL</fr:link>, a Python package for 
 <fr:ul><fr:li>Some nice looking Rocq proofs:
        <fr:ul><fr:li><fr:link
 type="external"
-href="./MyTheory.html/MyTheory.A.html">Webpage aesthetics</fr:link>, i.e. basic use of LaTeX and Coqdoc.</fr:li></fr:ul>
+href="./MyTheory.html/MyTheory.A.html">Webpage aesthetics</fr:link>, i.e. basic use of LaTeX and Coqdoc.</fr:li>
           <fr:li><fr:link
 type="external"
 href="./MyTheory.html/MyTheory.nat_example.html">Brief walkthrough</fr:link> of Rocq's dependent pattern matching, illustrated via natural number arithmetic. No use of tactics.</fr:li>
@@ -28,4 +28,4 @@ type="external"
 href="./MyTheory.html/MyTheory.eq_example.html">Walkthrough continued</fr:link>, this time focusing on basic properties of equality. No use of tactics.</fr:li>
           <fr:li><fr:link
 type="external"
-href="./MyTheory.html/MyTheory.elpi_exploration.html">Some practice with Elpi</fr:link>, a logic programming language which Enrico Tassi and others have been developing as a tactic language for the Rocq theorem prover.</fr:li></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+href="./MyTheory.html/MyTheory.elpi_exploration.html">Some practice with Elpi</fr:link>, a logic programming language which Enrico Tassi and others have been developing as a tactic language for the Rocq theorem prover.</fr:li></fr:ul></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
