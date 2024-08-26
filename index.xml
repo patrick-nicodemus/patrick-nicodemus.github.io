@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="true"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>250</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>249</fr:anchor><fr:addr
 type="user">main</fr:addr><fr:route>index.xml</fr:route><fr:title
 text="Patrick Nicodemus">Patrick Nicodemus</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Hello, and welcome to my personal website.</fr:p><fr:p>I am a research mathematician interested in applied topology, category theory, homological algebra, type theory and formal verification.</fr:p><fr:p>At the moment, I primarily work on applied topology, in the <fr:link
 type="external"
@@ -16,17 +16,16 @@ type="external"
 href="https://media.adelaide.edu.au/acvt/Publications/2011/2011-Gromov%E2%80%93Wasserstein%20Distances%20and%20the%20Metric%20Approach%20to%20Object%20Matching.pdf">Gromov-Wasserstein distance</fr:link> to the study of cell morphology. I also maintain <fr:link
 type="external"
 href="https://github.com/CamaraLab/CAJAL">CAJAL</fr:link>, a Python package for the analysis of cell morphology.</fr:p><fr:p>This website is under construction. Over the course of the next few weeks, I intend to start blogging here and uploading content, ideally, both my about my mathematics research, and potentially some literate formal verification using the Rocq theorem prover.</fr:p><fr:p>Some things you might find interesting:
-<fr:ul><fr:li><fr:link
-type="local"
-href="pbn-0001.xml"
-addr="pbn-0001"
-title="Category theory">Category theory</fr:link></fr:li> <fr:li>Some nice looking Rocq proofs: try
-     <fr:link
+<fr:ul><fr:li>Some nice looking Rocq proofs:
+       <fr:ul><fr:li><fr:link
 type="external"
-href="./MyTheory.html/MyTheory.A.html">here</fr:link>,
-     <fr:link
+href="./MyTheory.html/MyTheory.A.html">Webpage aesthetics</fr:link>, i.e. basic use of LaTeX and Coqdoc.</fr:li></fr:ul>
+          <fr:li><fr:link
 type="external"
-href="./MyTheory.html/MyTheory.nat_example.html">here</fr:link>, and
-     <fr:link
+href="./MyTheory.html/MyTheory.nat_example.html">Brief walkthrough</fr:link> of Rocq's dependent pattern matching, illustrated via natural number arithmetic. No use of tactics.</fr:li>
+          <fr:li><fr:link
 type="external"
-href="./MyTheory.html/MyTheory.eq_example.html">here</fr:link>.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+href="./MyTheory.html/MyTheory.eq_example.html">Walkthrough continued</fr:link>, this time focusing on basic properties of equality. No use of tactics.</fr:li>
+          <fr:li><fr:link
+type="external"
+href="./MyTheory.html/MyTheory.elpi_exploration.html">Some practice with Elpi</fr:link>, a logic programming language which Enrico Tassi and others have been developing as a tactic language for the Rocq theorem prover.</fr:li></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree>

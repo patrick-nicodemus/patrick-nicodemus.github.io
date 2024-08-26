@@ -7,7 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>245</fr:anchor><fr:addr
 type="user">forester_guide</fr:addr><fr:route>forester_guide.xml</fr:route><fr:title
 text="Forester guide">Forester guide</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Verbatim code</fr:strong> - just see the source code of this tree, as it's easier than trying to figure out how to verbatim-code the verbatim-code operations</fr:p><fr:p><fr:strong>Unordered lists</fr:strong> (bulleted lists, akin to "itemize" in LaTeX) can be made with <fr:pre><![CDATA[\ul{
   \li{First item}
@@ -30,7 +30,7 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>247</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>246</fr:anchor><fr:addr
 type="user">hello</fr:addr><fr:route>hello.xml</fr:route><fr:title
 text="Hello, World!">Hello, World!</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Welcome to your first tree! This tree is the root of your forest. ABC
   <fr:ul><fr:li><fr:link

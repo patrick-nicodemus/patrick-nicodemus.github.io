@@ -53,41 +53,4 @@ text="Category theory">Category theory</fr:title><fr:date><fr:year>2024</fr:year
 type="local"
 href="forester_guide.xml"
 addr="forester_guide"
-title="Forester guide">Guide to forester</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="true"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>244</fr:anchor><fr:addr
-type="user">main</fr:addr><fr:route>index.xml</fr:route><fr:title
-text="Patrick Nicodemus">Patrick Nicodemus</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Hello, and welcome to my personal website.</fr:p><fr:p>I am a research mathematician interested in applied topology, category theory, homological algebra, type theory and formal verification.</fr:p><fr:p>At the moment, I primarily work on applied topology, in the <fr:link
-type="external"
-href="https://camara-lab.org/">Cámara Lab</fr:link> at the University of Pennsylvania. Specifically, I apply the <fr:link
-type="external"
-href="https://media.adelaide.edu.au/acvt/Publications/2011/2011-Gromov%E2%80%93Wasserstein%20Distances%20and%20the%20Metric%20Approach%20to%20Object%20Matching.pdf">Gromov-Wasserstein distance</fr:link> to the study of cell morphology. I also maintain <fr:link
-type="external"
-href="https://github.com/CamaraLab/CAJAL">CAJAL</fr:link>, a Python package for the analysis of cell morphology.</fr:p><fr:p>This website is under construction. Over the course of the next few weeks, I intend to start blogging here and uploading content, ideally, both my about my mathematics research, and potentially some literate formal verification using the Rocq theorem prover.</fr:p><fr:p>Some things you might find interesting:
-<fr:ul><fr:li><fr:link
-type="local"
-href="pbn-0001.xml"
-addr="pbn-0001"
-title="Category theory">Category theory</fr:link></fr:li> <fr:li>Some nice looking Rocq proofs: try
-     <fr:link
-type="external"
-href="./MyTheory.html/MyTheory.A.html">here</fr:link>,
-     <fr:link
-type="external"
-href="./MyTheory.html/MyTheory.nat_example.html">here</fr:link>, and
-     <fr:link
-type="external"
-href="./MyTheory.html/MyTheory.eq_example.html">here</fr:link>.</fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+title="Forester guide">Guide to forester</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
